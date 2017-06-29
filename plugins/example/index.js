@@ -23,7 +23,7 @@ class PerformSignOff {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'Thanks for your help Davis',
+          'What do you think of the guy presenting with me?',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -47,10 +47,10 @@ class PerformSignOff {
     this.hooks = {
       'performSignOff:gatherData': (exchange, context) => null,
       'performSignOff:respond': (exchange, context) => {
-        const resp = 'My pleasure! As you can see I am quite brilliant, I hope you enjoyed the session and I look forward to hearing from Maurice next.';
+        const resp = 'I am not sure about him, he has a weird Austrian accent';
 
-        var linkUrl = "https://coffeeconnectionhilliard.files.wordpress.com/2016/05/thank-you-1400x800-c-default.gif";
-	      this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
+        //var linkUrl = "https://coffeeconnectionhilliard.files.wordpress.com/2016/05/thank-you-1400x800-c-default.gif";
+	//      this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
         
         exchange
           .response(resp) // respond to the user  
