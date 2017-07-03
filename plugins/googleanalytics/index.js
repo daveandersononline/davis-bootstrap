@@ -47,10 +47,10 @@ class Googleanalytics {
     this.hooks = {
       'googleanalytics:gatherData': (exchange, context) => null,
       'googleanalytics:respond': (exchange, context) => {
-        const resp = 'Wow, you have been really good this week. Even better today so I think you can have a star. Please ask your mum or dad to give it to you as I have no hands.';
+        const resp = 'Opening now';
 
-        //var linkUrl = "https://coffeeconnectionhilliard.files.wordpress.com/2016/05/thank-you-1400x800-c-default.gif";
-	//      this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
+        var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
+	     this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
         
         exchange
           .response(resp) // respond to the user  
