@@ -47,7 +47,7 @@ class Kidsfighting {
     this.hooks = {
       'kidsfighting:gatherData': (exchange, context) => null,
       'kidsfighting:respond': (exchange, context) => {
-        const resp = 'Well it is hard for me to be the judge, but what I can tell you is, if the girls are being good, you are happier, and so is daddy. Also, when you are nice to people they are nice back to you. So I would always suggest it is better to be nice to someone than to be mean.';
+        const resp = 'Well it is hard for me to be the judge, but what I can tell you is, if the girls are being good, mummy and daddy are happier. Also, when you are nice to people they are nice back to you. So I would always suggest it is better to be nice to someone than to be mean.';
 
      //   var linkUrl = "https://jnc47888.live.dynatrace.com/#install/agentlinux";
 	   //  this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
