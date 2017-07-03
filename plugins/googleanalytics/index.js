@@ -23,7 +23,7 @@ class Googleanalytics {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'Open Google Analytics',
+          'Show me Google Analytics',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
