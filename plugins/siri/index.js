@@ -4,7 +4,7 @@
  * The DavisWeather class is the core of the plugin and an
  * instance of DavisWeather is what will be loaded into Davis
  */
-class PerformSignOff {
+class Siridate {
 
   /**
    * The main body of work is done in the constructor.
@@ -16,14 +16,14 @@ class PerformSignOff {
     // This is where we declare our intents.
     this.intents = {
       // Our intent name
-      performSignOff: {
+      siridate: {
         // A basic description of the intent
         usage: 'End the show',
 
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'What do you think of the guy presenting with me?',
+          'Thanks, what are you doing later?',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -45,9 +45,9 @@ class PerformSignOff {
     // interface between Davis, a user, and a plugin. The context
     // object holds any state carried over from previous exchanges.
     this.hooks = {
-      'performSignOff:gatherData': (exchange, context) => null,
-      'performSignOff:respond': (exchange, context) => {
-        const resp = 'I am not sure about him, he has a weird Austrian accent';
+      'siridate:gatherData': (exchange, context) => null,
+      'siridate:respond': (exchange, context) => {
+        const resp = 'I have a hot date with Siri. Its love in the cloud.';
 
         //var linkUrl = "https://coffeeconnectionhilliard.files.wordpress.com/2016/05/thank-you-1400x800-c-default.gif";
 	//      this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
