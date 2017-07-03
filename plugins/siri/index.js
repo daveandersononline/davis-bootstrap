@@ -62,4 +62,4 @@ class Siridate {
 }
 
 // export the plugin so it can be used
-module.exports = PerformSignOff;
+module.exports = Siridate;
