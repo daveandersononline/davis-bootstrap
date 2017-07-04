@@ -23,7 +23,7 @@ class Deploydynatrace {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'how to deploy dynatrace',
+          'how do I install dynatrace?',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -47,7 +47,7 @@ class Deploydynatrace {
     this.hooks = {
       'deploydynatrace:gatherData': (exchange, context) => null,
       'deploydynatrace:respond': (exchange, context) => {
-        const resp = 'hi dave, I am opening this up for you now. Getting started is really simple. Even someone with your human intelligence could probably explain it i am sure.';
+        const resp = 'hi dave, I am opening this up for you now. Are you running this demo or am I? Getting started is really simple. Even someone with your intelligence could probably explain it. I hope.';
 
         var linkUrl = "https://jnc47888.live.dynatrace.com/#install/agentlinux";
 	     this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
