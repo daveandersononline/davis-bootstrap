@@ -4,7 +4,7 @@
  * The DavisWeather class is the core of the plugin and an
  * instance of DavisWeather is what will be loaded into Davis
  */
-class Frances {
+class Hifrances {
 
   /**
    * The main body of work is done in the constructor.
@@ -16,7 +16,7 @@ class Frances {
     // This is where we declare our intents.
     this.intents = {
       // Our intent name
-      frances: {
+      hifrances: {
         // A basic description of the intent
         usage: 'End the show',
 
@@ -45,9 +45,9 @@ class Frances {
     // interface between Davis, a user, and a plugin. The context
     // object holds any state carried over from previous exchanges.
     this.hooks = {
-      'frances:gatherData': (exchange, context) => null,
-      'frances:respond': (exchange, context) => {
-        const resp = 'Oh my god dave. She is a superstar. She works all hours of the day and is deliverying amazing value. You were at Perform weren't you? I was there also. She is your top hire as far as I'm concerned and when she gets a team behind her look out. But you knew that already that.';
+      'hifrances:gatherData': (exchange, context) => null,
+      'hifrances:respond': (exchange, context) => {
+        const resp = 'Oh my god dave. She is a superstar. She works all hours of the day and is deliverying amazing value. You were at Perform werent you? I was there also. She is your top hire as far as Im concerned and when she gets a team behind her look out. But you knew that already that.';
 
        // var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
@@ -62,4 +62,4 @@ class Frances {
 }
 
 // export the plugin so it can be used
-module.exports = Frances;
+module.exports = Hifrances;
