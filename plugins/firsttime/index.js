@@ -47,7 +47,7 @@ class Firsttime {
     this.hooks = {
       'firsttime:gatherData': (exchange, context) => null,
       'firsttime:respond': (exchange, context) => {
-        const resp = 'Yes I guess it was ok. I know you probably think it is amazing, but i am a more intelligent being, and honestly I would prefer to self heal these applications myself if you would only let me. Oh by the way its pronounced data. Not da da.';
+        const resp = 'Yes I guess it was ok. I know you probably think it is amazing, but i am a more intelligent being, and honestly I would prefer to self heal these applications myself if you wedould only let me. Oh by the way its pronounced data. Not dardar.';
 
        // var linkUrl = "https://jnc47888.live.dynatrace.com/#install/agentlinux";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
