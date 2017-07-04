@@ -23,7 +23,7 @@ class Deploydynatrace {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'and tell me how hard is it to deploy dynatrace',
+          'open my agent install dashboard',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -47,7 +47,7 @@ class Deploydynatrace {
     this.hooks = {
       'deploydynatrace:gatherData': (exchange, context) => null,
       'deploydynatrace:respond': (exchange, context) => {
-        const resp = 'Let me show you. I am opening up the Dynatrace dashboard for you now. Deployment is easy you will see. Simply deploy our oneagent and on the host and I will automatically detect your entire environment including all host, services, processes, and applications. Yes even containers and microservices that appear within the container, without you having to configure anything.';
+        const resp = 'hi dave, I am opening this up for you now. Getting started is really simple even you can explain that i am fairly sure.';
 
         var linkUrl = "https://jnc47888.live.dynatrace.com/#install/agentlinux";
 	     this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
