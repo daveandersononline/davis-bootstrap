@@ -47,7 +47,7 @@ class Hifrances {
     this.hooks = {
       'hifrances:gatherData': (exchange, context) => null,
       'hifrances:respond': (exchange, context) => {
-        const resp = 'Oh my god dave. She is a superstar. She works all hours of the day and is deliverying amazing value. You were at Perform werent you? I was there also. She is your top hire as far as Im concerned and when she gets a team behind her look out. But you knew that already that.';
+        const resp = 'Oh my god dave. She is a superstar. She works all hours of the day and is deliverying amazing value. You were at Perform werent you? I was there also. She is your top hire as far as I am concerned and when she gets a team behind her look out. But you knew that already that.';
 
        // var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
