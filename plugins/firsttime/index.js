@@ -23,7 +23,7 @@ class Firsttime {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'How was the demo?',
+          'What did you think of the demo?',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -47,7 +47,7 @@ class Firsttime {
     this.hooks = {
       'firsttime:gatherData': (exchange, context) => null,
       'firsttime:respond': (exchange, context) => {
-        const resp = 'Yes I guess it was ok. I know you probably think it is amazing, but i am a more intelligent being, and honestly I would prefer to self heal these applications myself. If you let me. By the way its data not dadda.';
+        const resp = 'Yes I guess it was ok. I know you probably think it is amazing, but i am a more intelligent being, and honestly I would prefer to self heal these applications myself if you would only let me. Oh by the way its pronounced data. Not da da.';
 
        // var linkUrl = "https://jnc47888.live.dynatrace.com/#install/agentlinux";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
