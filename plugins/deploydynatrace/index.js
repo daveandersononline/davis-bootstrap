@@ -47,7 +47,7 @@ class Deploydynatrace {
     this.hooks = {
       'deploydynatrace:gatherData': (exchange, context) => null,
       'deploydynatrace:respond': (exchange, context) => {
-        const resp = 'hi dave, I am opening this up for you now. Getting started is really simple. Are you running this demo? Even someone with your intelligence could probably explain it. But I might stick around incase you stuff it up';
+        const resp = 'hi dave, I am opening this up for you now. Getting started is really simple. Even someone with your intelligence could probably explain it. But I might stick around incase you stuff it up';
 
         var linkUrl = "https://jnc47888.live.dynatrace.com/#install/agentlinux";
 	     this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
