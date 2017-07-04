@@ -23,7 +23,7 @@ class Deploydynatrace {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'show me how to get started',
+          'how to deploy dynatrace',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
