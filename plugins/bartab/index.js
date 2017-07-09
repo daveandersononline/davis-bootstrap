@@ -47,7 +47,7 @@ class Bartab {
     this.hooks = {
       'bartab:gatherData': (exchange, context) => null,
       'bartab:respond': (exchange, context) => {
-        const resp = 'I understand how hard your job is.I suggest tonight offer to buy drinks for everyone. But make sure you offer whilst you are standing next to Steve Pace. This is not to suck up to him. Instead I have put a hold on your credit card, so when you go to pay, it will fail. Then Steve will have to bill up the tab. You can thank me later.';
+        const resp = 'I understand how hard your job is.I suggest tonight offer to buy drinks for everyone. But make sure you offer when you are standing next to Steve Pace. This is not to suck up to him. Instead I have put a hold on your credit card, so when you go to pay, it will fail. Then Steve will have to pay the tab. You can thank me later.';
 
        // var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
