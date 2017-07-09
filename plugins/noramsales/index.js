@@ -4,7 +4,7 @@
  * The DavisWeather class is the core of the plugin and an
  * instance of DavisWeather is what will be loaded into Davis
  */
-class noramsales {
+class Noramsales {
 
   /**
    * The main body of work is done in the constructor.
