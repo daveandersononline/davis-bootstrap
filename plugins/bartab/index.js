@@ -23,7 +23,7 @@ class Bartab {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'classic advice i really appreciate it',
+          'that is classic advice i really appreciate it',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -47,7 +47,7 @@ class Bartab {
     this.hooks = {
       'bartab:gatherData': (exchange, context) => null,
       'bartab:respond': (exchange, context) => {
-        const resp = 'I understand how hard your job is Dave. I have put a temporary hold on your credit card so I suggest tonight offer to buy drinks but do it while you stand next to Steve Pace. When the card fails, he will haev to pay, but at least you looked like you tried.';
+        const resp = 'I understand how hard your job is.I suggest tonight offer to buy drinks for everyone. But make sure you offer whilst you are standing next to Steve Pace. This is not to suck up to him. Instead I have put a hold on your credit card, so when you go to pay, it will fail. Then Steve will have to bill up the tab. You can thank me later.';
 
        // var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
