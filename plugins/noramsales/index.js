@@ -47,7 +47,7 @@ class Noramsales {
     this.hooks = {
       'noramsales:gatherData': (exchange, context) => null,
       'noramsales:respond': (exchange, context) => {
-        const resp = 'That is a tough one Dave. Sales are brutal. You are an amazing marketer but even if you had artificial intelligence like me I doubt you would please them.';
+        const resp = 'That is a tough one Dave. Sales are brutal. You are an amazing marketer but even if you had artificial intelligence like me, I do not think you would please them. Between you and me, they are not the sharpest applications in the app store.';
 
        // var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
