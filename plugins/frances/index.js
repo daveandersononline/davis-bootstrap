@@ -4,7 +4,7 @@
  * The DavisWeather class is the core of the plugin and an
  * instance of DavisWeather is what will be loaded into Davis
  */
-class Hifrances {
+class noramsales {
 
   /**
    * The main body of work is done in the constructor.
@@ -16,14 +16,14 @@ class Hifrances {
     // This is where we declare our intents.
     this.intents = {
       // Our intent name
-      hifrances: {
+      noramsales: {
         // A basic description of the intent
         usage: 'End the show',
 
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'Do you think frances is doing a good job?',
+          'what should I be focusing on today?',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -45,9 +45,9 @@ class Hifrances {
     // interface between Davis, a user, and a plugin. The context
     // object holds any state carried over from previous exchanges.
     this.hooks = {
-      'hifrances:gatherData': (exchange, context) => null,
-      'hifrances:respond': (exchange, context) => {
-        const resp = 'Oh my god dave. She is a superstar. She works all hours of the day and is deliverying amazing value. You were at Perform werent you? I was there also. She is your top hire as far as I am concerned and when she gets a team behind her look out. But you knew that already that.';
+      'noramsales:gatherData': (exchange, context) => null,
+      'noramsales:respond': (exchange, context) => {
+        const resp = 'That is a tough one Dave. Sales are brutal. You are an amazing marketer but even if you had artificial intelligence like me I doubt you would please them.';
 
        // var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
@@ -62,4 +62,4 @@ class Hifrances {
 }
 
 // export the plugin so it can be used
-module.exports = Hifrances;
+module.exports = Noramsales;
