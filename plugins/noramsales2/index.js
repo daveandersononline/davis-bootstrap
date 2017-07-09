@@ -47,7 +47,7 @@ class Noramsales2 {
     this.hooks = {
       'noramsales2:gatherData': (exchange, context) => null,
       'noramsales2:respond': (exchange, context) => {
-        const resp = 'Maybe give them some tee shirts. Or host some events for them with beer. Maybe just cut to the chase and buy them beer.';
+        const resp = 'They have short attention spans so I would suggest keeping it very simple for them. They like t shirts and beer. Start with that. Then tell them about all the amazing work you are doing..........which they will forget. So just end with t shirts and beer and you will have done well.';
 
        // var linkUrl = "https://analytics.google.com/analytics/web/?authuser=1#embed/report-home/a54510554w87453075p90791076/";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
