@@ -16,7 +16,7 @@ class Performopen {
     // This is where we declare our intents.
     this.intents = {
       // Our intent name
-      deploydynatrace: {
+      performopen: {
         // A basic description of the intent
         usage: 'End the show',
 
