@@ -23,7 +23,7 @@ class Performopen2 {
         // Phrases that will trigger our intent. Note that they will not
         // need to be matched exactly in order for the intent to run.
         phrases: [
-          'thanks and so what are you going to contribute then?',
+          'what are you going to contribute then?',
         ],
 
         // Lifecycle Events are friendly names for the steps that an intent
@@ -47,7 +47,7 @@ class Performopen2 {
     this.hooks = {
       'performopen2:gatherData': (exchange, context) => null,
       'performopen2:respond': (exchange, context) => {
-        const resp = 'actually I am going to doing a demonstration with Alois showcasing my ability to identify the root cause of performance issues with my AI interlect. I can process billions of transactions in milliseconds and you are still shuffling your slides around at 7am this morning. Good luck.';
+        const resp = 'actually I am going to be doing a demonstration with Alois showcasing my ability to identify the root cause of performance issues with my artificial intelligent interlect. I do not mean to brag, but I can process billions of transactions in milliseconds and yet there you were, at 7am this morning, still shuffling your slides around. Good luck.';
 
       //  var linkUrl = "https://jnc47888.live.dynatrace.com/#install/agentlinux";
 	    // this.davis.server.pushLinkToUser(exchange.user, linkUrl, true);
